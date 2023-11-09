@@ -1,0 +1,11 @@
+services:
+  jupyter:
+    build: .
+    volumes:
+      - $PWD:/kaggle/working
+    working_dir: /kaggle/working
+    ports:
+      - "8080:8080"
+    command: jupyter notebook --ip='*' --port=8080 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
+    hostname: localhost
+    restart: always

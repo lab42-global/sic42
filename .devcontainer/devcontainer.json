@@ -1,0 +1,14 @@
+{
+    "name": "Kaggle Python Environment",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "jupyter",
+    "workspaceFolder": "/kaggle/working",
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python"
+    ]
+  }
+  
+  
