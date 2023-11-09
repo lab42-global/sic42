@@ -1,0 +1,115 @@
+{
+    "environment": {
+        "height_bounds": [64, 64],
+        "width_bounds": [64, 64],
+        "swarms_meta_config": {
+            "n_agents_bounds": [8, 8],
+            "subregion": "everywhere",
+            "agent_params": {
+                "view_distance_bounds": [4, 4],
+                "initial_energy_level_bounds": [32, 32],
+                "existence_cost_bounds": [1, 1],
+                "activity_points_per_tick_bounds": [4, 4],
+                "actions_config": {
+                    "eat": {
+                        "activity_points_cost_bounds": [1, 1],
+                        "distance_metric": "chebyshev",
+                        "max_distance_bounds": [1, 1],
+                        "required_energy_level_bounds": [0, 0]
+                    },
+                    "step": {
+                        "activity_points_cost_bounds": [1, 1],
+                        "distance_metric": "chebyshev",
+                        "max_distance_bounds": [1, 1],
+                        "required_energy_level_bounds": [0, 0]
+                    },
+                    "reproduce": {},
+                    "memory": {}
+                },
+                "view_function_indicator": "square",
+                "max_memory_size_bounds": [1024, 1024],
+                "carry_cost_factor_bounds": [1, 1],
+                "max_weight_carriable_bounds": [4, 4],
+                "attack_strength_bounds": [1, 1],
+                "defense_strength_bounds": [0, 0],
+                "max_broadcast_size_bounds": [1, 1],
+                "n_pheromone_symbols_bounds": [4, 4],
+                "initial_pheromone_intensity_bounds": [32, 32],
+                "pheromone_intensity_decay_bounds": [1, 1],
+                "max_write_size_bounds": [16, 16],
+                "max_allowed_powerups_bounds": [4, 4],
+                "max_allowed_upgrades_bounds": [8, 8]
+            }
+        },
+        "item_configs": {
+            "foods": {
+                "subregion": "everywhere",
+                "energy_bounds": [1, 4],
+                "max_energy_bounds": [4, 8],
+                "energy_regrowth_bounds": [0, 0],
+                "edible": true,
+                "n_items_bounds": [128, 128],
+                "disappears_on_no_energy": true,
+                "pickupable": false,
+                "powerup": {
+                    "spawn_probability": 0.2,
+                    "attribute": "view_distance",
+                    "delta": [1, 4],
+                    "duration": [4, 32]
+                },
+                "upgrade": {
+                    "spawn_probability": 0.1,
+                    "attribute": "defense_strength",
+                    "delta": [1, 2]
+                }
+            },
+            "obstacle": {
+                "subregion": "everywhere",
+                "energy_bounds": [0, 0],
+                "max_energy_bounds": [0, 0],
+                "energy_regrowth_bounds": [0, 0],
+                "edible": false,
+                "n_items_bounds": [128, 128],
+                "disappears_on_no_energy": false,
+                "pickupable": true,
+                "infostorage": true,
+                "weight_bounds": [1, 8]
+            }
+        }
+    },
+    "simulation": {
+        "n_timesteps": 64,
+        "stopping_criterion": null,
+        "time_multiplier_in_seconds": 0.1
+    },
+    "visualization": {
+        "video": {
+            "scaling_factor": 8,
+            "fps": 8
+        },
+        "pygame": {
+            "agent_scaling_factor": 30,
+            "item_scaling_factor": 20,
+            "plot_update_interval": 30,
+            "alpha": 128,
+            "tooltip_max_distance": 20,
+            "popup_width": 150,
+            "popup_height": 50,
+            "popup_font_size": 24,
+            "DPI": 100
+        },
+        "save_videos": true,
+        "save_plots": true,
+        "save_logs": true,
+        "interactive": false
+    },
+    "tournament": {
+        "tournament_seed": 42,
+        "goal_function_name": "avg_num_agents",
+        "n_tournament_rounds": 1,
+        "n_swarms_per_game": 2,
+        "n_rounds_per_game": 1,
+        "results_path": "deathmatch_results",
+        "aggregation_method": "mean"
+    }
+}
