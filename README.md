@@ -1,24 +1,42 @@
-# Simulation Template for Swarm Intelligence Cup Beta Phase
+# Welcome to the sic42 Repository
 
-Welcome to the Swarm Intelligence Cup (SIC)! This repository contains a template for how you can run a simulation and add your own agent behaviors. You can find more information about the cup on our [website](https://lab42.global/sic-new-homepage/).
+## Introduction
+
+This repository is the main hub for the [sic42 package](https://github.com/lab42-global/sic42), a new simulation environment for researching and developing swarm intelligence currently in beta. It serves as the foundational codebase for participants in the [Swarm Intelligence Cup (SIC)](https://lab42.global/sic/), where the collective behavior of simple agents can emerge as complex, intelligent systems.
 
 ## Getting Started
 
-To get started, simply click on the badge below. This will take you to a Google Colab notebook where you can run the simulation. You will need to sign in with a Google account to use Colab. If you do not have a Google account, you can create one for free.
+Dive into the sic42 environment by following the steps outlined in our [Quick Start](https://sic.lab42.global/quick-start/) guide.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lab42-global/sic42-template/blob/main/sic-template.ipynb)
+## Repository Features
 
-## Instructions
+- **Template Scripts:** Jumpstart your swarm creation with our templates. [Get started quickly](https://github.com/lab42-global/sic42-template).
+- **Detailed Documentation:** Access comprehensive guides and explanations at the [documentation repository](https://github.com/lab42-global/sic42-doc), or use the
+  technical documentation pdf included in this repository for all the details.
+- **Community Contributions:** Collaborate and share insights with other participants and tell us how we can improve the package.
 
-Once you open the notebook, follow the instructions and code blocks step by step. You do not need to worry too much about the details of the simulation setup—just focus on the tasks at hand and the specific areas of the code where you'll be implementing your solutions. Note that you can run each code block by clicking the play button on the left side of the code block or by pressing `Shift+Enter`. 
+## Navigating the Swarm Intelligence Cup
 
-In case you get stuck, you can refer to the [documentation](https://sic.lab42.global) for more information about the simulation environment and the available APIs.
+- [General information](https://lab42.global/sic/)
+- [Template to Get Started](https://github.com/lab42-global/sic42-template)
+- [Official Documentation](https://sic.lab42.global)
 
-Don't forget to sign up for the competition at [lab42.global/sic-new-registration/](https://lab42.global/sic-new-registration/
-)!
+## About the Swarm Intelligence Cup
 
-## Questions and Support
+At Lab42, we believe in the power of swarm intelligence as a pathway to achieving human-level AI. The SIC is our arena for like-minded individuals to test theories, collaborate, and push the boundaries of artificial intelligence through the lens of swarm behaviors. This initiative is a call to explore a world where agents, while individually executing simple tasks, collectively drive forward complex and intelligent behaviors.
 
-If you have any questions or need support, please reach out to us.
+## Contributing to sic42
 
-Good luck and happy coding!
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. If you have a suggestion that would make this better, please fork the repo and create a branch for your contribution before submitting a pull request. You are also invited to [join the Lab42 Discord server](https://discord.gg/waRCYPEc6C) to discuss AI in general but also SIC.
+
+## Feedback
+
+If you have suggestions for improving sic42 or if you encounter any issues, please submit an issue on our GitHub page. Your feedback is valuable in helping us make continuous improvements.
+
+## Building sic42 Locally
+
+For those who wish to build and run sic42 locally, please follow the setup instructions provided in the [Official Documentation](https://sic.lab42.global).
+
+## Join Us
+
+Become a part of the SIC and contribute to the evolution of swarm intelligence. Together, we can forge a new approach to artificial intelligence. Start your journey [here](https://lab42.global/sic/registration/).
