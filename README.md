@@ -37,6 +37,12 @@ If you have suggestions for improving sic42 or if you encounter any issues, plea
 
 For those who wish to build and run sic42 locally, please follow the setup instructions provided in the [Official Documentation](https://sic.lab42.global).
 
+For those who don't need the documentation, the sic42 package is available via pip, allowing you to install it easily in your Python environment. To install sic42, simply use the following command:
+
+```bash
+pip install sic42
+```
+
 ## Join Us
 
 Become a part of the SIC and contribute to the evolution of swarm intelligence. Together, we can forge a new approach to artificial intelligence. Start your journey [here](https://lab42.global/sic/registration/).
