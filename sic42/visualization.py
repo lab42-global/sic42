@@ -11,7 +11,6 @@ import tqdm
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from IPython.display import Video, HTML
 from PIL import Image, ImageDraw, ImageFont
 from typing import List, Dict
 
