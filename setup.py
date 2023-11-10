@@ -17,7 +17,7 @@ def package_files():
 
 setup(
     name='sic42',
-    version='0.3.0',
+    version='0.3.1',
     description='Lab42 Swarm Intelligence Cup',
     url='https://github.com/lab42-global/sic42',
     author='Lab42',
@@ -32,7 +32,8 @@ setup(
         'pandas',
         'matplotlib',
         'pygame',
-        'ffmpeg-python'
+        'ffmpeg-python',
+        'pillow'
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
